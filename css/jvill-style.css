@@ -1,0 +1,1652 @@
+@font-face {
+    font-family: 'futura';
+    src: url("../fonts/futura.eot");
+    src: local("futura"), url("../fonts/futura.woff") format("woff"), url("../fonts/futura.ttf") format("truetype");
+}
+
+body {
+    font-family: "futura" !important;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: linear-gradient(116deg, #FFFFFF, #FFFFFF 60%, #0f243f 60%, #0f243f);
+}
+
+header .logo-area {
+    padding: 25px 0px 15px 15px;
+}
+
+header .logo-area .cntct {
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+header .logo-area .contact-info {
+    width: 75%;
+    float: right;
+}
+
+header .logo-area .contact-info .contact {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+}
+
+header .logo-area .contact-info .contact-symb {
+    width: 13%;
+}
+
+header .logo-area .contact-info .contact-symb a {
+    color: #fff;
+    font-size: 2.2em;
+    text-decoration: none;
+}
+
+header .logo-area .contact-info .contact-symb a i {
+    color: #fde041;
+    padding: 7px 10px;
+    background: transparent;
+    border: 1px solid #fde041;
+    border-radius: 100%;
+}
+
+header .logo-area .contact-info .numb {
+    width: 87%;
+}
+
+header .logo-area .contact-info .numb a {
+    color: #fff;
+    font-size: 1.7em;
+    text-decoration: none;
+}
+
+header .logo-area .contact-info .numb a:nth-child(2) {
+    font-size: 1.3em;
+}
+
+header .logo-area .contact-info .book {
+    text-align: center;
+    margin-top: -5px;
+}
+
+header .logo-area .contact-info .book .call {
+    color: #fde041;
+    font-size: 16px;
+}
+
+header .logo-area .lang {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header .logo-area .lang span {
+    padding-right: 8px;
+}
+
+header .logo-area .lang span img {
+    width: 24px;
+    height: 24px;
+}
+
+header .logo-area .lang i.fa {
+    font-size: 17px;
+}
+
+header .logo-area .multiple-lang {
+    width: 64px;
+    position: absolute;
+    z-index: 200;
+}
+
+header .logo-area .multiple-lang ul {
+    margin: 0;
+    padding-left: 15px;
+    border: 1px solid transparent;
+    background: #0f243f;
+}
+
+header .logo-area .multiple-lang ul li,
+header .logo-area .multiple-lang ul footer .payment .associated-link li:first-child,
+footer .payment .associated-link header .logo-area .multiple-lang ul li:first-child {
+    list-style: none;
+    padding: 4px;
+}
+
+header .logo-area .multiple-lang ul li img,
+header .logo-area .multiple-lang ul footer .payment .associated-link li:first-child img,
+footer .payment .associated-link header .logo-area .multiple-lang ul li:first-child img {
+    width: 24px;
+    height: 24px;
+}
+
+header .logo-area .multiple-lang ul li:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+header .logo-area .hidden {
+    display: none;
+}
+
+header .logo-area .right {
+    position: absolute;
+    top: 15px;
+    right: 85px;
+}
+
+header .logo-area .right li,
+header .logo-area .right footer .payment .associated-link li:first-child,
+footer .payment .associated-link header .logo-area .right li:first-child {
+    position: relative;
+}
+
+header .logo-area .right li a,
+header .logo-area .right footer .payment .associated-link li:first-child a,
+footer .payment .associated-link header .logo-area .right li:first-child a {
+    padding: 2px 10px;
+    border-right: 1px solid #ddd;
+    color: #f2f2f2;
+}
+
+header .logo-area .right li a i,
+header .logo-area .right footer .payment .associated-link li:first-child a i,
+footer .payment .associated-link header .logo-area .right li:first-child a i {
+    padding-left: 5px;
+}
+
+header .logo-area .right li .sign-up {
+    position: absolute;
+    width: 100px;
+    color: #f2f2f2;
+    font-size: 16px;
+    background: #0f243f;
+    z-index: 100;
+    text-align: center;
+    padding: 5px 8px;
+}
+
+header .logo-area .right li .sign-up .span {
+    padding: 5px 0;
+}
+
+header .logo-area .right li .sign-up .span:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+header .logo-area .right li:hover a {
+    background: rgba(0, 0, 0, 0.12);
+}
+
+header .logo-area .fix {
+    position: fixed;
+    z-index: 10000;
+    top: 20px;
+}
+
+header nav .nav-list li a,
+header nav .nav-list footer .payment .associated-link li:first-child a,
+footer .payment .associated-link header nav .nav-list li:first-child a {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header .navbar {
+    border-radius: 0;
+    background: #0f243f;
+    border: none;
+    margin-bottom: 0;
+}
+
+header .navbar .navbar-header {
+    text-align: center;
+}
+
+header .navbar-inverse .navbar-nav {
+    /* li:hover a {
+        background: #1d467c;
+      } */
+}
+
+header .navbar-inverse .navbar-nav .active a {
+    background-color: #1d467c;
+    border-bottom: 3px solid #fde041;
+}
+
+header .navbar-inverse .navbar-nav .active a:hover {
+    background: #1d467c;
+}
+
+header .navbar-inverse .navbar-nav .open a,
+header .navbar-inverse .navbar-nav .open a:focus,
+header .navbar-inverse .navbar-nav .open a:hover {
+    background-color: #1d467c;
+}
+
+header .navbar-inverse .navbar-nav ul.topmenu {
+    background: #0f243f;
+}
+
+header .navbar-inverse .navbar-nav ul.topmenu a {
+    color: #fff;
+    background: #0f243f;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+header .navbar-inverse .navbar-nav ul.topmenu li:hover a {
+    color: #c2c2c2;
+}
+
+header .navbar-fixed-top {
+    background: rgba(15, 36, 63, 0.9);
+}
+
+.slide {
+    position: relative;
+    top: 0;
+}
+
+.slide .carousel-inner .item img {
+    width: 100%;
+    height: auto;
+}
+
+.slide .carousel-control {
+    width: auto;
+    display: none;
+}
+
+.slide .carousel-control .glyphicon.glyphicon-chevron-left,
+.slide .carousel-control .glyphicon.glyphicon-chevron-right {
+    width: auto;
+    height: auto;
+    padding: 12px 10px;
+    background-color: rgba(255, 138, 0, 0.6);
+    margin-left: 0;
+    color: #fff;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    position: absolute;
+    top: 45%;
+}
+
+.slide .carousel-control .glyphicon.glyphicon-chevron-right {
+    margin-right: 0;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.slide .carousel-control .glyphicon.glyphicon-chevron-right:hover,
+.slide .carousel-control .glyphicon.glyphicon-chevron-left:hover,
+.slide .carousel-control .glyphicon.glyphicon-chevron-right:hover {
+    background-color: #ff8a00;
+}
+
+.slide .carousel-control.left {
+    left: 0;
+}
+
+.slide .carousel-control.right {
+    right: 0;
+}
+
+.carousel:hover .carousel-control {
+    display: block;
+    opacity: 1;
+}
+
+.trip {
+    position: relative;
+}
+
+.abt-service {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background: #e4eaee;
+    padding: 15px 0px;
+}
+
+.abt-service .list-box {
+    padding: 10px 0;
+}
+
+.abt-service .list-box .img {
+    padding-bottom: 10px;
+}
+
+.abt-service .list-box .img i {
+    color: #224588;
+    font-size: 4.5rem;
+    padding: 20px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.abt-service .list-box span {
+    font-size: 16px;
+    line-height: 1.6rem;
+    color: #444;
+    padding: 10px 8px;
+}
+
+.description {
+    background: #d9e2e8;
+    margin-bottom: 35px;
+    padding: 35px 0px;
+    margin: 20px 0;
+}
+
+.description .booking,
+.description .latest-reviews,
+.description .about-jvill {
+    background: #fff;
+    padding: 15px 15px 30px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 400px;
+}
+
+.description .booking h3,
+.description .latest-reviews h3,
+.description .about-jvill h3 {
+    color: #0260c0;
+    font-size: 22px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-top: 0px;
+    padding: 20px 0 10px 0;
+    border-bottom: 1px dotted #0260c0;
+}
+
+.description .booking h3 i,
+.description .latest-reviews h3 i,
+.description .about-jvill h3 i {
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.description .booking ul,
+.description .latest-reviews ul,
+.description .about-jvill ul {
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.description .booking ul li,
+.description .latest-reviews ul li,
+.description .about-jvill ul li,
+.description .booking ul footer .payment .associated-link li:first-child,
+footer .payment .associated-link .description .booking ul li:first-child,
+.description .latest-reviews ul footer .payment .associated-link li:first-child,
+footer .payment .associated-link .description .latest-reviews ul li:first-child,
+.description .about-jvill ul footer .payment .associated-link li:first-child,
+footer .payment .associated-link .description .about-jvill ul li:first-child {
+    list-style: none;
+    color: #656a71;
+    line-height: 25px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.description .booking ul li::before,
+.description .latest-reviews ul li::before,
+.description .about-jvill ul li::before,
+.description .booking ul footer .payment .associated-link li:first-child::before,
+footer .payment .associated-link .description .booking ul li:first-child::before,
+.description .latest-reviews ul footer .payment .associated-link li:first-child::before,
+footer .payment .associated-link .description .latest-reviews ul li:first-child::before,
+.description .about-jvill ul footer .payment .associated-link li:first-child::before,
+footer .payment .associated-link .description .about-jvill ul li:first-child::before {
+    font-family: "FontAwesome";
+    content: "\f00c";
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.description .latest-reviews,
+.description .about-jvill {
+    overflow-y: auto;
+}
+
+.description .latest-reviews ul,
+.description .about-jvill ul {
+    padding-left: 20px;
+}
+
+.description .latest-reviews ul li h4,
+.description .about-jvill ul li h4,
+.description .latest-reviews ul footer .payment .associated-link li:first-child h4,
+footer .payment .associated-link .description .latest-reviews ul li:first-child h4,
+.description .about-jvill ul footer .payment .associated-link li:first-child h4,
+footer .payment .associated-link .description .about-jvill ul li:first-child h4 {
+    color: #676f7a;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.description .latest-reviews ul li .stars i,
+.description .about-jvill ul li .stars i {
+    color: #f29c06;
+}
+
+.description .latest-reviews ul li p,
+.description .about-jvill ul li p,
+.description .latest-reviews ul footer .payment .associated-link li:first-child p,
+footer .payment .associated-link .description .latest-reviews ul li:first-child p,
+.description .about-jvill ul footer .payment .associated-link li:first-child p,
+footer .payment .associated-link .description .about-jvill ul li:first-child p {
+    color: #313438;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.description .latest-reviews ul li span,
+.description .about-jvill ul li span,
+.description .latest-reviews ul footer .payment .associated-link li:first-child span,
+footer .payment .associated-link .description .latest-reviews ul li:first-child span,
+.description .about-jvill ul footer .payment .associated-link li:first-child span,
+footer .payment .associated-link .description .about-jvill ul li:first-child span {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.description .latest-reviews ul li::before,
+.description .about-jvill ul li::before,
+.description .latest-reviews ul footer .payment .associated-link li:first-child::before,
+footer .payment .associated-link .description .latest-reviews ul li:first-child::before,
+.description .about-jvill ul footer .payment .associated-link li:first-child::before,
+footer .payment .associated-link .description .about-jvill ul li:first-child::before {
+    content: "";
+    padding: 0;
+}
+
+.description .latest-reviews a,
+.description .about-jvill a {
+    color: #0260c0;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.description .about-jvill {
+    padding-bottom: 17px;
+    margin-bottom: 10px;
+}
+
+.description .about-jvill h4 {
+    color: #676f7a;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 18px 0 10px 0;
+}
+
+.description .about-jvill p {
+    color: #313438;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.fixed .fixed-title {
+    border-bottom: 2px solid #08c;
+    overflow-y: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.fixed .fixed-title .fixed-head {
+    padding-left: 0;
+}
+
+.fixed .fixed-title h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #444;
+}
+
+.fixed .fixed-title form select {
+    width: 100%;
+    height: 34px;
+    margin-top: 4.5%;
+}
+
+.fixed .fixed-table {
+    margin: 25px 15px;
+}
+
+.fixed .fixed-table .table {
+    margin-bottom: 0;
+}
+
+.fixed .fixed-table .fixed-view {
+    margin: 5px;
+    font-size: 17px;
+    color: #333;
+}
+
+.fixed .fixed-table .fixed-view:hover {
+    color: #08c;
+}
+
+.fixed .fixed-table thead tr th {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.fixed .fixed-table tbody {
+    border-bottom: 1px solid #ddd;
+}
+
+.fixed .fixed-table tbody tr td a {
+    color: #666;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 8px;
+}
+
+.fixed .fixed-table tbody tr td .btn {
+    background: #ff0066;
+    padding: 4px 12px;
+    border-radius: 0;
+    color: #fff;
+}
+
+.feature-trip .feature-title,
+.feature-tour .feature-title,
+.special-tour .feature-title,
+.blog .feature-title {
+    text-align: center;
+}
+
+.feature-trip .feature-title .title-border,
+.feature-tour .feature-title .title-border,
+.special-tour .feature-title .title-border,
+.blog .feature-title .title-border {
+    position: relative;
+    padding: 30px 0;
+}
+
+.feature-trip .feature-title .title-border h1,
+.feature-tour .feature-title .title-border h1,
+.special-tour .feature-title .title-border h1,
+.blog .feature-title .title-border h1 {
+    font-size: 33px;
+    font-weight: bold;
+    line-height: 26px;
+    position: relative;
+    text-transform: uppercase;
+    color: #224c7f;
+    margin: 0 15px;
+    text-align: left;
+    border-bottom: 5px solid #224c7f;
+    padding: 15px 0;
+}
+
+.feature-trip .feature-body,
+.feature-tour .feature-body,
+.special-tour .feature-body,
+.blog .feature-body {
+    border: 3px solid #e1e1e1;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.feature-trip .feature-body a,
+.feature-tour .feature-body a,
+.special-tour .feature-body a,
+.blog .feature-body a {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #000;
+}
+
+.feature-trip .feature-body a img,
+.feature-tour .feature-body a img,
+.special-tour .feature-body a img,
+.blog .feature-body a img {
+    width: 100%;
+    height: 350px;
+}
+
+.feature-trip .feature-body .feature-text,
+.feature-tour .feature-body .feature-text,
+.special-tour .feature-body .feature-text,
+.blog .feature-body .feature-text {
+    position: absolute;
+    height: auto;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.feature-trip .feature-body .feature-text .transparent-overlay,
+.feature-tour .feature-body .feature-text .transparent-overlay,
+.special-tour .feature-body .feature-text .transparent-overlay,
+.blog .feature-body .feature-text .transparent-overlay {
+    padding: 0 14px;
+}
+
+.feature-trip .feature-body .feature-text .transparent-overlay h4,
+.feature-tour .feature-body .feature-text .transparent-overlay h4,
+.special-tour .feature-body .feature-text .transparent-overlay h4,
+.blog .feature-body .feature-text .transparent-overlay h4 {
+    margin-bottom: 14px;
+}
+
+.feature-trip .feature-body .feature-text .transparent-overlay h4 a,
+.feature-tour .feature-body .feature-text .transparent-overlay h4 a,
+.special-tour .feature-body .feature-text .transparent-overlay h4 a,
+.blog .feature-body .feature-text .transparent-overlay h4 a {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.feature-trip .feature-body .feature-text .transparent-overlay h4 a span,
+.feature-tour .feature-body .feature-text .transparent-overlay h4 a span,
+.special-tour .feature-body .feature-text .transparent-overlay h4 a span,
+.blog .feature-body .feature-text .transparent-overlay h4 a span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.feature-trip .feature-body .feature-text .transparent-overlay .trip-time,
+.feature-tour .feature-body .feature-text .transparent-overlay .trip-time,
+.special-tour .feature-body .feature-text .transparent-overlay .trip-time,
+.blog .feature-body .feature-text .transparent-overlay .trip-time {
+    display: none;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.feature-trip .feature-body .feature-text .transparent-overlay p,
+.feature-tour .feature-body .feature-text .transparent-overlay p,
+.special-tour .feature-body .feature-text .transparent-overlay p,
+.blog .feature-body .feature-text .transparent-overlay p {
+    display: none;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.feature-trip .feature-body .feature-text .feature-details,
+.feature-tour .feature-body .feature-text .feature-details,
+.special-tour .feature-body .feature-text .feature-details,
+.blog .feature-body .feature-text .feature-details {
+    z-index: 9;
+    position: relative;
+    padding: 0 14px 11px;
+    overflow-y: auto;
+}
+
+.feature-trip .feature-body .feature-text .feature-details a,
+.feature-tour .feature-body .feature-text .feature-details a,
+.special-tour .feature-body .feature-text .feature-details a,
+.blog .feature-body .feature-text .feature-details a {
+    background: transparent;
+    padding: 5px 8px;
+    float: right;
+    font-weight: 600;
+    color: #000;
+}
+
+.feature-trip .feature-body .feature-text .enq a.btn,
+.feature-tour .feature-body .feature-text .enq a.btn,
+.special-tour .feature-body .feature-text .enq a.btn,
+.blog .feature-body .feature-text .enq a.btn {
+    background: #ff0066;
+    border: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 10px 10px;
+    color: #fff;
+}
+
+.feature-trip .feature-body .feature-text .enq a:nth-child(2),
+.feature-tour .feature-body .feature-text .enq a:nth-child(2),
+.special-tour .feature-body .feature-text .enq a:nth-child(2),
+.blog .feature-body .feature-text .enq a:nth-child(2) {
+    background: #0f243f;
+    margin: 0 10px 10px 0;
+}
+
+.feature-trip .feature-body .feature-text::after,
+.feature-tour .feature-body .feature-text::after,
+.special-tour .feature-body .feature-text::after,
+.blog .feature-body .feature-text::after {
+    background: rgba(255, 255, 255, 0.85);
+    bottom: 0;
+    height: 165px;
+    left: -18px;
+    top: auto;
+    -webkit-transform: rotate(5deg) scale(1.1);
+    transform: rotate(5deg) scale(1.1);
+}
+
+.feature-trip .feature-body:hover .feature-text,
+.feature-tour .feature-body:hover .feature-text,
+.special-tour .feature-body:hover .feature-text,
+.blog .feature-body:hover .feature-text {
+    -webkit-animation: 1000ms ease-in-out 0s normal zoomIn;
+    animation: 1000ms ease-in-out 0s normal zoomIn;
+    background: rgba(40, 118, 155, 0.8);
+}
+
+.feature-trip .feature-body:hover .feature-text .feature-details span.trip-time,
+.feature-tour .feature-body:hover .feature-text .feature-details span.trip-time,
+.special-tour .feature-body:hover .feature-text .feature-details span.trip-time,
+.blog .feature-body:hover .feature-text .feature-details span.trip-time {
+    display: none;
+}
+
+.feature-trip .feature-body:hover .feature-text .feature-details a,
+.feature-tour .feature-body:hover .feature-text .feature-details a,
+.special-tour .feature-body:hover .feature-text .feature-details a,
+.blog .feature-body:hover .feature-text .feature-details a {
+    color: #fff;
+    font-weight: normal;
+}
+
+.feature-trip .feature-body:hover .transparent-overlay,
+.feature-tour .feature-body:hover .transparent-overlay,
+.special-tour .feature-body:hover .transparent-overlay,
+.blog .feature-body:hover .transparent-overlay {
+    margin-bottom: 16px;
+}
+
+.feature-trip .feature-body:hover .transparent-overlay h4,
+.feature-tour .feature-body:hover .transparent-overlay h4,
+.special-tour .feature-body:hover .transparent-overlay h4,
+.blog .feature-body:hover .transparent-overlay h4 {
+    margin-bottom: 7px;
+}
+
+.feature-trip .feature-body:hover .transparent-overlay h4 a,
+.feature-tour .feature-body:hover .transparent-overlay h4 a,
+.special-tour .feature-body:hover .transparent-overlay h4 a,
+.blog .feature-body:hover .transparent-overlay h4 a {
+    color: #fff;
+}
+
+.feature-trip .feature-body:hover .transparent-overlay span.trip-time,
+.feature-tour .feature-body:hover .transparent-overlay span.trip-time,
+.special-tour .feature-body:hover .transparent-overlay span.trip-time,
+.blog .feature-body:hover .transparent-overlay span.trip-time,
+.feature-trip .feature-body:hover .transparent-overlay p,
+.feature-tour .feature-body:hover .transparent-overlay p,
+.special-tour .feature-body:hover .transparent-overlay p,
+.blog .feature-body:hover .transparent-overlay p {
+    display: block;
+    color: #fff;
+}
+
+.special-tour .carousel-col {
+    position: relative;
+    padding: 5px;
+    float: left;
+    overflow-y: auto;
+}
+
+.special-tour .carousel-col .feature-body img {
+    height: 350px !important;
+}
+
+.special-tour .carousel-control {
+    width: 8%;
+    width: 0px;
+}
+
+.special-tour .carousel-control.left,
+.special-tour .carousel-control.right {
+    margin-right: 40px;
+    margin-left: 32px;
+    background-image: none;
+    opacity: 1;
+}
+
+.special-tour .carousel-control>a>span {
+    color: white;
+    font-size: 29px !important;
+    background: none;
+}
+
+.special-tour .active>div {
+    display: none;
+}
+
+.special-tour .active>div:first-child {
+    display: block;
+}
+
+.blog {
+    position: relative;
+    background: #e4eaee;
+}
+
+.blog .blog-text {
+    position: relative;
+    text-align: left;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+
+.blog .blog-text .blog-post {
+    color: #444;
+}
+
+.blog .blog-text .blog-post .blog-img img {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+}
+
+.blog .blog-text .blog-post .blog-detail {
+    padding: 0 8px;
+}
+
+.blog .blog-text .blog-post .blog-detail h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 8px 0;
+    padding: 0 8px;
+}
+
+.blog .blog-text .blog-post .blog-time span {
+    font-size: 14px;
+}
+
+.blog .blog-text .blog-post .blog-parag p {
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 16px;
+}
+
+.blog .blog-text .blog-post a.btn {
+    padding: 0 12px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    font-weight: bold;
+    color: #ff6600;
+    font-size: 20px;
+}
+
+.blog .blog-text .blog-post:hover .blog-detail h2 {
+    color: #349bcb;
+}
+
+.talk {
+    background: #d9e2e8;
+    margin-bottom: 20px;
+}
+
+.talk .chat {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.talk .chat .talk-icon {
+    width: 20%;
+}
+
+.talk .chat .talk-icon i {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 100%;
+    background: #fff;
+    font-size: 8rem;
+    border: 2px solid #8faabc;
+    color: #8faabc;
+}
+
+.talk .chat .talk-text {
+    width: 80%;
+}
+
+.talk .chat .talk-text h3 {
+    margin-bottom: 0;
+    color: #333;
+    margin-top: 35px;
+}
+
+.talk .chat .talk-text p {
+    font-size: 16px;
+}
+
+.talk .chat .talk-text a.btn {
+    background: #08c;
+    color: #fff;
+}
+
+.talk .offer h3 {
+    margin-bottom: 0;
+    color: #333;
+    margin-top: 45px;
+    position: relative;
+}
+
+.talk .offer p {
+    font-size: 16px;
+}
+
+.talk .offer a.btn {
+    background: #08c;
+    color: #fff;
+}
+
+footer {
+    border-top: 10px solid #fde041;
+    position: relative;
+    background-color: #0f243f;
+    padding-top: 15px;
+}
+
+footer .top-footer {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #757571;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer .top-footer p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+footer .top-footer a {
+    background-color: #fde041;
+    color: #0f243f;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+footer .top-footer a:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fde041;
+}
+
+footer .middle-footer {
+    padding: 0;
+}
+
+footer .middle-footer .contact-us {
+    margin-bottom: 20px;
+}
+
+footer .middle-footer .contact-us h3 {
+    color: #fff;
+}
+
+footer .middle-footer .contact-us ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .middle-footer .contact-us ul li,
+footer .middle-footer .contact-us ul .payment .associated-link li:first-child,
+footer .payment .associated-link .middle-footer .contact-us ul li:first-child {
+    color: #ccc;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+footer .middle-footer .contact-us ul li i,
+footer .middle-footer .contact-us ul .payment .associated-link li:first-child i,
+footer .payment .associated-link .middle-footer .contact-us ul li:first-child i {
+    padding-right: 8px;
+}
+
+footer .middle-footer .about-us {
+    margin-bottom: 20px;
+}
+
+footer .middle-footer .about-us h3 {
+    color: #fff;
+}
+
+footer .middle-footer .about-us p {
+    color: #fff;
+    padding-bottom: 10px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+footer .middle-footer .social {
+    padding-right: 5px;
+    padding-left: 38px;
+}
+
+footer .middle-footer .social h3 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+footer .middle-footer .social .social-media {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer .middle-footer .social .social-media li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer .middle-footer .social .social-media li a {
+    color: #fff;
+}
+
+footer .middle-footer .social .social-media li:hover a {
+    color: #fde041;
+}
+
+footer .associated {
+    overflow-y: auto;
+}
+
+footer .contact-link,
+footer .payment {
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+footer .contact-link h3,
+footer .payment h3 {
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+footer .contact-link .org,
+footer .payment .org {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer .contact-link .associated-link,
+footer .payment .associated-link {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+}
+
+footer .contact-link .associated-link li,
+footer .payment .associated-link li,
+footer .payment .associated-link li:first-child {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+footer .contact-link .associated-link li a img,
+footer .payment .associated-link li a img,
+footer .payment .associated-link li:first-child a img {
+    width: 100px;
+    height: 100px;
+    vertical-align: initial;
+}
+
+footer .contact-link .associated-link li:first-child a img,
+footer .payment .associated-link li:first-child a img {
+    width: 78px;
+    height: 78px;
+}
+
+footer .contact-link .associated-link li:nth-child(4) a img,
+footer .payment .associated-link li:nth-child(4) a img,
+footer .payment .associated-link li:nth-child(4):first-child a img {
+    width: 120px;
+    height: 120px;
+}
+
+footer .payment h3 {
+    padding-bottom: 0;
+}
+
+footer .payment .associated-link li a img,
+footer .payment .associated-link li:first-child a img {
+    width: 80px;
+    height: 80px;
+}
+
+footer .payment .associated-link li:nth-child(2) a img,
+footer .payment .associated-link li:nth-child(2):first-child a img {
+    width: 90px;
+    height: 60px;
+}
+
+footer .bottom-footer {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+footer .bottom-footer .quick-links {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+footer .bottom-footer .quick-links ul {
+    padding-left: 0;
+}
+
+footer .bottom-footer .quick-links ul li,
+footer .bottom-footer .quick-links ul .payment .associated-link li:first-child,
+footer .payment .associated-link .bottom-footer .quick-links ul li:first-child {
+    list-style: none;
+    padding: 10px 0;
+    display: inline;
+}
+
+footer .bottom-footer .quick-links ul li a,
+footer .bottom-footer .quick-links ul .payment .associated-link li:first-child a,
+footer .payment .associated-link .bottom-footer .quick-links ul li:first-child a {
+    color: #d4d4d4;
+    text-decoration: none;
+    padding-right: 5px;
+    font-size: 1.2em;
+}
+
+footer .bottom-footer .quick-links ul li a:hover {
+    color: #fde041;
+}
+
+footer:before {
+    content: '';
+    position: absolute;
+    left: 45%;
+    top: -1px;
+    border-top: 22px solid #fde041;
+    border-left: 22px solid transparent;
+    border-right: 22px solid transparent;
+}
+
+@media (max-width: 1188px) {
+    header nav .nav-list li a,
+    header nav .nav-list footer .payment .associated-link li:first-child a,
+    footer .payment .associated-link header nav .nav-list li:first-child a {
+        padding: 14px 6px;
+        font-size: 1em;
+    }
+    header .logo-area .contact-info .contact .contact-symb {
+        width: 15%;
+    }
+    header .logo-area .contact-info .contact .numb {
+        width: 85%;
+    }
+    header .logo-area .contact-info .contact .numb a {
+        font-size: 1.3em;
+    }
+    header .logo-area .contact-info .contact .book {
+        text-align: right;
+    }
+}
+
+@media (max-width: 1004px) and (min-width: 768px) {
+    header .logo-area .contact-info {
+        margin-top: 1%;
+    }
+    header .logo-area .contact-info .contact .contact-symb a {
+        font-size: 1.2em;
+    }
+    header .logo-area .contact-info .contact .numb a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 991px) {
+    header .logo-area .contact-info .contact .numb a {
+        font-size: 1.18em;
+    }
+    .description .desc {
+        width: 100%;
+    }
+    .feature-trip .pack,
+    .feature-tour .pack,
+    .special-tour .pack,
+    .blog .pack {
+        width: 100%;
+    }
+    footer .foot {
+        width: 100%;
+    }
+    footer .middle-footer .social {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 782px) and (min-width: 768px) {
+    header .logo-area .contact-info {
+        width: 73%;
+    }
+    header nav .nav-list li a,
+    header nav .nav-list footer .payment .associated-link li:first-child a,
+    footer .payment .associated-link header nav .nav-list li:first-child a {
+        font-size: 0.97em;
+    }
+}
+
+@media (max-width: 910px) and (min-width: 768px) {
+    header .logo-area .contact-info .contact .contact-symb a {
+        font-size: 1.4em;
+    }
+    header .logo-area .contact-info .contact .contact-symb a i {
+        padding: 9px;
+    }
+    header .logo-area .contact-info .contact .numb a {
+        font-size: 1.1em;
+    }
+    footer .contact-link .associated-link li a img,
+    footer .payment .associated-link li a img,
+    footer .payment .associated-link li:first-child a img {
+        width: 43px;
+        height: 43px;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        /* .nav-title {
+      padding: 10px 15px;
+      h4 {
+        color: #fff;
+        margin: 0;
+        font-size: 20px;
+      }
+      p {
+        font-size: 13px;
+        margin: 0;
+        color: #fff;
+        padding-left: 20px;
+      }
+    } */
+    }
+    header .logo-area {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+        background-image: linear-gradient(#fff, #fff);
+    }
+    header .logo-area .logo {
+        text-align: center;
+        padding-top: 10px;
+    }
+    header .logo-area .logo img {
+        text-align: center;
+        margin: 0 auto;
+        width: 310px;
+    }
+    header .logo-area .cntct {
+        position: relative;
+        top: 0;
+    }
+    header .logo-area .contact-info {
+        padding-top: 1.5%;
+        width: 50%;
+        margin: 0 auto;
+        float: none;
+    }
+    header .logo-area .contact-info .contact .contact-symb {
+        width: 20%;
+        margin-top: 20px;
+        text-align: center;
+    }
+    header .logo-area .contact-info .contact .contact-symb a {
+        color: #0f243f;
+        font-size: 2.4em;
+    }
+    header .logo-area .contact-info .contact .contact-symb a i {
+        color: #0f243f;
+        border: 1px solid #0f243f;
+    }
+    header .logo-area .contact-info .contact .numb {
+        width: 80%;
+        float: left;
+    }
+    header .logo-area .contact-info .contact .numb a {
+        color: #0f243f;
+        text-align: left;
+        font-size: 1.8em;
+    }
+    header .logo-area .contact-info .book {
+        text-align: center;
+    }
+    header .logo-area .contact-info .book .call {
+        color: #ff6600;
+        padding-left: 35px;
+    }
+    header .logo-area .fix {
+        position: relative;
+    }
+    header .logo-area .right {
+        position: absolute;
+        top: 0;
+        margin: 0;
+    }
+    header .logo-area .right li a,
+    header .logo-area .right footer .payment .associated-link li:first-child a,
+    footer .payment .associated-link header .logo-area .right li:first-child a {
+        color: #285b7a;
+    }
+    header .logo-area .lang {
+        position: absolute;
+        top: 0;
+    }
+    header .logo-area .lang i.fa {
+        color: #224588;
+    }
+    header .navbar-inverse .navbar-nav li,
+    header .navbar-inverse .navbar-nav footer .payment .associated-link li:first-child,
+    footer .payment .associated-link header .navbar-inverse .navbar-nav li:first-child {
+        border-bottom: 1px solid #333;
+    }
+    header .navbar-inverse .navbar-nav .open a {
+        background: #1d467c;
+    }
+    header .navbar-inverse .navbar-nav .open a:hover {
+        background-color: #1d467c;
+    }
+    header .navbar-inverse .navbar-nav ul.topmenu li {
+        padding-left: 40px;
+    }
+    header .navbar-inverse .navbar-nav ul.topmenu a {
+        padding: 10px;
+    }
+    header .navbar-inverse .navbar-toggle {
+        border-color: transparent;
+        background-color: transparent;
+        float: none;
+    }
+    header .navbar-inverse .navbar-toggle .icon-bar {
+        width: 28px;
+        height: 3px;
+    }
+    header .navbar-inverse .navbar-toggle:hover {
+        background-color: transparent;
+    }
+    header nav .nav-list li a,
+    header nav .nav-list footer .payment .associated-link li:first-child a,
+    footer .payment .associated-link header nav .nav-list li:first-child a {
+        font-size: 1.2em;
+        padding: 15px 35px 15px;
+    }
+    header nav .nav-list li a b.caret,
+    header nav .nav-list footer .payment .associated-link li:first-child a b.caret,
+    footer .payment .associated-link header nav .nav-list li:first-child a b.caret {
+        float: right;
+    }
+    header .navbar-fixed-top {
+        position: relative !important;
+    }
+    .blog .blog-text .blog-post {
+        margin-bottom: 20px;
+    }
+    .talk .chat {
+        display: block;
+        padding-bottom: 0;
+    }
+    .talk .chat .talk-icon,
+    .talk .chat .talk-text {
+        width: 100%;
+        text-align: center;
+    }
+    .talk .chat .talk-icon i {
+        margin-top: 0;
+    }
+    .talk .chat .talk-text h3 {
+        margin-top: 15px;
+    }
+    .talk .offer {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .fixed .fixed-title h2 {
+        font-size: 20px;
+    }
+    .fixed .fixed-table .table {
+        margin-top: 0;
+    }
+    .fixed .fixed-table .table thead {
+        display: block;
+        overflow-y: hidden;
+    }
+    .fixed .fixed-table .table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .fixed .fixed-table .table tbody {
+        display: block;
+    }
+    .fixed .fixed-table .table tbody tr {
+        padding-bottom: 8px;
+        display: block;
+        position: relative;
+    }
+    .fixed .fixed-table .table tbody tr td {
+        border: none;
+        position: relative;
+        padding-left: 46% !important;
+        white-space: normal;
+        text-align: left;
+        display: block;
+        border-bottom: 1px dotted #ddd;
+    }
+    .fixed .fixed-table .table tbody tr td::before {
+        content: attr(data-title);
+        position: absolute;
+        top: 10px;
+        left: 4px;
+        width: 45%;
+        padding-right: 8px;
+        text-align: left;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    .carousel-inner .active.left {
+        left: -100%;
+    }
+    .carousel-inner .active.right {
+        left: 100%;
+    }
+    .carousel-inner .next {
+        left: 100%;
+    }
+    .carousel-inner .prev {
+        left: -100%;
+    }
+    .carousel-col {
+        width: 100%;
+    }
+    .active>div:first-child {
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .feature-trip .feature-title .title-border h1,
+    .feature-tour .feature-title .title-border h1,
+    .special-tour .feature-title .title-border h1,
+    .blog .feature-title .title-border h1,
+    .feature-tour .feature-title .title-border h1,
+    .special-tour .feature-title .title-border h1,
+    .blog .feature-title .title-border h1 {
+        font-size: 25px;
+    }
+    header .logo-area .contact-info {
+        width: 90% !important;
+    }
+    header .logo-area .logo img {
+        width: 280px;
+    }
+}
+
+@media (max-width: 391px) {
+    header .logo-area .contact-info .contact a {
+        font-size: 1.5em;
+    }
+    .talk .chat .talk-text a.btn {
+        margin-bottom: 8px;
+    }
+    .description .desc {
+        padding: 0;
+    }
+    .description .latest-reviews h3,
+    .description .about-jvill h3,
+    .description .booking h3,
+    .description .latest-reviews h3,
+    .description .about-jvill h3,
+    .description .about-jvill h3 {
+        font-size: 19px;
+        margin-bottom: 10px;
+        line-height: 20px;
+        padding: 10px 0;
+    }
+    .description .about-jvill h4 {
+        margin-top: 10px;
+    }
+    .feature-trip .pack,
+    .feature-tour .pack,
+    .special-tour .pack,
+    .blog .pack,
+    .feature-tour .pack,
+    .special-tour .pack,
+    .blog .pack {
+        padding: 0;
+    }
+    .fixed .fixed-title {
+        margin: 0;
+        border-bottom: 0;
+    }
+    .fixed .fixed-title .sel {
+        padding: 0;
+    }
+    .fixed .fixed-table {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 602px) {
+    header .logo-area .contact-info {
+        width: 60%;
+    }
+    header .logo-area .contact-info .contact .contact-symb {
+        margin-top: 5px;
+    }
+    header .logo-area .contact-info .contact .numb a {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-inner .active.left {
+        left: -50%;
+    }
+    .carousel-inner .active.right {
+        left: 50%;
+    }
+    .carousel-inner .next {
+        left: 50%;
+    }
+    .carousel-inner .prev {
+        left: -50%;
+    }
+    .carousel-col {
+        width: 50%;
+    }
+    .active>div:first-child+div {
+        display: block;
+    }
+}
+
+
+/*md*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .carousel-inner .active.left {
+        left: -33%;
+    }
+    .carousel-inner .active.right {
+        left: 33%;
+    }
+    .carousel-inner .next {
+        left: 33%;
+    }
+    .carousel-inner .prev {
+        left: -33%;
+    }
+    .carousel-col {
+        width: 33%;
+    }
+    .active>div:first-child+div {
+        display: block;
+    }
+    .active>div:first-child+div+div {
+        display: block;
+    }
+}
+
+
+/*lg*/
+
+@media (min-width: 1200px) {
+    .carousel-inner .active.left {
+        left: -33%;
+    }
+    .carousel-inner .active.right {
+        left: 33%;
+    }
+    .carousel-inner .next {
+        left: 33%;
+    }
+    .carousel-inner .prev {
+        left: -33%;
+    }
+    .carousel-col {
+        width: 33%;
+    }
+    .active>div:first-child+div {
+        display: block;
+    }
+    .active>div:first-child+div+div {
+        display: block;
+    }
+}
+
+
+/*# sourceMappingURL=maps/jvill-style.css.map */

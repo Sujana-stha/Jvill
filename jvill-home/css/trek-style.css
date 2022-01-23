@@ -1,0 +1,563 @@
+.package-wrapper .top-image .img {
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 8px;
+}
+
+.package-wrapper .top-image .img-title {
+    color: #333;
+    width: 100%;
+    margin: 30px 0 15px 0;
+}
+
+.package-wrapper .top-image .img-title h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.package-wrapper .top-image .duration {
+    position: absolute;
+    top: 4%;
+    left: 0;
+    background: #f4a912;
+    padding: 8px 15px;
+}
+
+.package-wrapper .top-image .duration span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.package-wrapper .package-content .package-overview {
+    margin: 30px 0;
+}
+
+.package-wrapper .package-content .trek-details {
+    margin: 20px 0 40px 0;
+    background: #fff;
+}
+
+.package-wrapper .package-content .trek-details .trek-nav {
+    width: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+    background: linear-gradient(to bottom, #fff, #ddd);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.package-wrapper .package-content .trek-details .trek-nav li {
+    padding: 8px 5px 0 10px;
+}
+
+.package-wrapper .package-content .trek-details .trek-nav li a {
+    color: #0f243f;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.package-wrapper .package-content .trek-details .nav-tabs li.active a,
+.package-wrapper .package-content .trek-details .nav-tabs li:hover a {
+    color: #0f243f;
+}
+
+.package-wrapper .package-content .trek-details .content-body .overview-text {
+    text-align: justify;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .overview-text p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+    font-size: 18px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont {
+    padding: 0 25px;
+    margin-top: 30px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .sub-menu {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .sub-menu li {
+    padding: 17px 0;
+    font-size: 16px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .sub-menu li span.days {
+    background: #4ccdf6;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    position: relative;
+    margin-right: 25px;
+    float: left;
+    border-radius: 8px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .sub-menu li span.days::after {
+    content: ':';
+    padding-left: 4px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .inc li i,
+.package-wrapper .package-content .trek-details .content-body .text-cont .exc li i {
+    color: #fff;
+    background: #4ccdf6;
+    padding: 4px;
+    border-radius: 100%;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .exc li i {
+    background: #ff1a1a;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .outline {
+    margin-top: 45px;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .det-todo-list {
+    margin: 25px 0;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .det-todo-list h5 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #224588;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont .det-todo-list p {
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    font-family: serif;
+}
+
+.package-wrapper .package-content .trek-details .content-body .text-cont hr {
+    border-top: 1px solid #ddd;
+}
+
+.package-wrapper .package-content .client-review {
+    margin: 40px 0;
+}
+
+.package-wrapper .package-content .client-review .review-title {
+    padding: 10px 0 15px 0;
+    border-bottom: 4px solid #4ccdf6;
+}
+
+.package-wrapper .package-content .client-review .review-title h3 {
+    color: #262626;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.package-wrapper .package-content .client-review .review-title h3 span {
+    float: right;
+    text-transform: none;
+    font-size: 18px;
+    background-color: #0f243f;
+    color: #fff;
+    padding: 8px 13px;
+    font-weight: normal;
+}
+
+.package-wrapper .package-content .client-review .review-list {
+    padding: 20px 10px;
+    background-color: #fff;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #000;
+    overflow-y: auto;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .profile {
+    text-align: left;
+    padding: 0;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .profile .icon {
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 4rem;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .profile .icon img {
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .review-details {
+    padding: 0;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .review-details h3 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .review-details h3 span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .review-details .stars i {
+    color: #f29c06;
+    font-size: 18px;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .review-details .parag {
+    padding-top: 10px;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box .review-details .parag p {
+    font-size: 18px;
+    font-family: 'serif';
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box:hover {
+    border-bottom: 2px dotted #4ccdf6;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box:hover .profile .icon img {
+    border: 2px solid #4ccdf6;
+}
+
+.package-wrapper .package-content .client-review .review-list .review-box:hover .review-details h4 {
+    color: #4ccdf6;
+}
+
+.package-wrapper .package-content .link-box {
+    padding: 20px 10px 0 10px;
+    margin-top: 20px;
+    overflow: auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+}
+
+.package-wrapper .package-content .link-box .book {
+    text-transform: uppercase;
+    background: #ff0066;
+    padding: 10px 12px 5px 12px;
+    float: right;
+    margin-bottom: 12px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 8px;
+    text-decoration: none;
+    height: 42px;
+}
+
+.package-wrapper .package-content .link-box .social-link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    list-style: none;
+    padding: 0 15px;
+}
+
+.package-wrapper .package-content .link-box .social-link li a {
+    color: #afb0b0;
+    font-size: 38px;
+    padding: 5px;
+}
+
+.package-wrapper .package-content .link-box .social-link li:hover a {
+    color: #4267b2;
+}
+
+.package-wrapper .package-content .pck-highlight {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-review {
+    width: 100%;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-review .rate {
+    width: 100%;
+    font-size: 4rem;
+    color: #f29c06;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-review .rate span {
+    padding-left: 30px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-review .rate i {
+    font-size: 3rem;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-review span.based {
+    float: right;
+    font-size: 15px;
+    position: relative;
+    top: 0;
+}
+
+.package-wrapper .package-content .pck-highlight .dept-guarant {
+    border: 1px solid #5cb85c;
+    border-radius: 8px;
+    display: block;
+    font-size: 15px;
+    color: #62666a;
+    line-height: 20px;
+    margin-bottom: 10px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 100%;
+}
+
+.package-wrapper .package-content .pck-highlight .dept-guarant .symb {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.12);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.package-wrapper .package-content .pck-highlight .dept-guarant .symb i {
+    font-size: 25px;
+}
+
+.package-wrapper .package-content .pck-highlight .dept-guarant .dept-text {
+    width: 80%;
+    padding: 5px 10px;
+}
+
+.package-wrapper .package-content .pck-highlight .dept-guarant .dept-text span {
+    color: #000;
+    font-weight: 700;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-contact {
+    padding-left: 15px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-top: 15px;
+    width: 100%;
+    /* .cont::before {
+          content: '\f098';
+          font-family: 'FontAwesome';
+          font-size: 4rem;
+          color: #7d90a6;
+          margin: 10px 0;
+          position: relative;
+        } */
+}
+
+.package-wrapper .package-content .pck-highlight .pck-contact i.fa {
+    margin-top: 4%;
+    font-size: 5rem;
+    color: #7d90a6;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-contact .cont {
+    padding: 10px 15px;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-contact .cont span.supp {
+    display: block;
+}
+
+.package-wrapper .package-content .pck-highlight .pck-contact .cont a {
+    font-size: 2.8rem;
+}
+
+.package-wrapper .package-content .trek-facts,
+.package-wrapper .package-content .quick-enq {
+    margin-bottom: 25px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.package-wrapper .package-content .trek-facts h3,
+.package-wrapper .package-content .quick-enq h3 {
+    margin: 0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ddd));
+    background: linear-gradient(to bottom, #fff, #ddd);
+    color: #000;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 5px 12px 15px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.package-wrapper .package-content .trek-facts ul,
+.package-wrapper .package-content .quick-enq ul {
+    padding-left: 10px;
+}
+
+.package-wrapper .package-content .trek-facts ul li,
+.package-wrapper .package-content .quick-enq ul li {
+    list-style: none;
+    padding: 10px 0;
+    border: 1px dotted #ddd;
+}
+
+.package-wrapper .package-content .quick-enq {
+    margin: 40px 0;
+}
+
+.package-wrapper .package-content .quick-enq .quick-form {
+    padding: 25px;
+}
+
+.package-wrapper .package-content .quick-enq .quick-form input {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.package-wrapper .package-content .quick-enq .quick-form textarea {
+    width: 100%;
+}
+
+.package-wrapper .package-content .quick-enq .quick-form .btn {
+    margin-top: 20px;
+}
+
+.package-wrapper .package-content .gallery {
+    margin-bottom: 30px;
+}
+
+.package-wrapper .package-content .gallery h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.package-wrapper .package-content .gallery .picture {
+    overflow: auto;
+}
+
+.package-wrapper .package-content .gallery .picture .img-list {
+    padding: 0 3px;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.package-wrapper .package-content .gallery .picture .img-list img {
+    width: 100%;
+    height: 100px;
+    opacity: 1;
+    display: block;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.package-wrapper .package-content .gallery .picture .img-list .overlay {
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.package-wrapper .package-content .gallery .picture .img-list:hover img {
+    opacity: 0.3;
+}
+
+.package-wrapper .package-content .gallery .picture .img-list:hover .overlay {
+    opacity: 1;
+}
+
+.package-wrapper .package-content .gallery .picture .icon {
+    background-color: transparent;
+    color: #0f243f;
+}
+
+.package-wrapper .package-content .gallery .picture .icon i {
+    font-size: 28px;
+}
+
+.package-wrapper .package-content .related-tour h3 {
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+}
+
+.package-wrapper .package-content .related-tour .feature-trip .feature-body {
+    border: 1px solid #000;
+}
+
+.package-wrapper .package-content .related-tour .feature-trip .feature-body a img {
+    height: 280px;
+}
+
+.package-wrapper .package-content .related-tour .best span.best-text {
+    background: #f4a912;
+    color: #262626;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    -webkit-box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    cursor: default;
+    padding: 5px 8px;
+}
+
+.package-wrapper .package-content .related-tour .best span.best-text::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 0px 10px 6px 0;
+    border-color: transparent #999 transparent transparent;
+}
+
+.package-wrapper .package-content .related-tour .best span.best-text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin: 0 0 0 -5px;
+    border: solid #f4a912;
+    border-right-color: transparent;
+    border-width: 15px 7px 15px;
+}
+
+
+/*# sourceMappingURL=maps/trek-style.css.map */

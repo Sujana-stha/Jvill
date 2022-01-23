@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title></title>
+    <style type="text/css">
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        h5 {
+            font-weight: bold;
+            font-size: 16px;
+        }
+        
+        .action {
+            position: relative;
+            right: 0;
+            margin-top: 5%;
+            float: left;
+        }
+        .itinerary-detail {
+            padding-left: 5%;
+        }
+        .days {
+            margin-bottom: 25px;
+        }
+        .title,
+        .description {
+            margin-left: 2%;
+        }
+        .title input {
+            width: 500px;
+            height: 40px;
+            border: 2px solid #666;
+        }
+        .title {
+            margin-bottom: 20px;
+        }
+        .itin-lists {
+            overflow: auto;
+        }
+        section {
+            background: #f2f2f2;
+
+        }
+        .add {
+            margin: 30px;
+            margin-bottom: 20px;
+        }
+        hr {
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+	<!--start of month-->
+	<section class="container">
+		<h2>Itinerary</h2>
+		
+		
+        <div class="itin-lists" id="container">
+            <hr>
+            <div class="itinerary-detail col-md-9">
+                <div class="days">
+                    <h3>Day 1</h3>
+                </div>
+                <div class="title">
+                    <h5>Title</h5>
+                    <input type="text" name="">
+                </div>
+                <div class="description">
+                    <h5>Description</h5>
+                    <textarea rows="3" cols="100"></textarea>
+                </div>
+            </div>
+            <div class="action col-md-3">
+                <span class="input-group-btn">
+                    <button id="btn0" type="button" class="btn btn-danger">
+                        <span id="icon0" class="glyphicon glyphicon-minus"></span>
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="add">
+            <span class="input-group-btn">
+                <button id="btn0" type="button" class="btn btn-primary">
+                    <span id="icon0" class="glyphicon glyphicon-plus"></span> Add Itinerary
+                </button>
+            </span>
+        </div>
+	</section><!--end of month-->
+	<!--bootstrap link -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/2.1.1/js/bootstrap.min.js"></script>
+  	<!-- local link-->
+  	<script type="text/javascript" src="js/move.js"></script>
+</body>
+</html>
